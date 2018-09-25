@@ -239,6 +239,35 @@ var a2 = a1.slice(2,5);
 console.log(a1); //[0, 1, 2, 3, 4, 5]
 console.log(a2); //[2, 3, 4]
 ```
+
+8. Filter
+- take function as arg
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array3.PNG)
+
+9. map eg: trple each element.
+- it untouch original array.
+- take function as arg.
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array3.PNG)
+
+10. a.reverse() 
+- change original array.
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array4.PNG)
+
+11. a1.concat(a2) 
+- returns new array.
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array5.PNG)
+
+12. join() 
+- it return string. 
+- returns new array.
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array6.PNG)
+
+13. reduce()
+- take function as arg.
+- reduce array into single element based on logic defined on function. eg: sum all element.
+
+
+
   
 
 
