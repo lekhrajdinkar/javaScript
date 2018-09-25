@@ -7,7 +7,7 @@
 > Events,
 > AJAX - Asysn call - dont refresh page and load data in background.
 
-online JS environment : [http://jsbin.com/](jsbin.com)
+`note`: Online JS environment tool for dev/test : [http://jsbin.com/](jsbin.com)
 
 ### features:
 
@@ -31,6 +31,12 @@ and ES6 - Few browser does not support it and transcompile it to ES5 format brfo
 `<script scr=""> f1()</script>` - f1() will not
 
 ### Types
+
+```
+eg:
+if(1 == '1') - true
+if(1 === '1') - false
+```
 #### 1. console.log(typeof a)
 
 > var a = Infinity, NaN, 0, -1, 1.1, - `number`
@@ -52,6 +58,7 @@ and ES6 - Few browser does not support it and transcompile it to ES5 format brfo
 
 #### 3. NaN
 - its a error return by JS while mathematical error on number types. NaN is of `number` type. technically we can say its undefined number in JS world.
+- `if (NaN == NaN) // false` 
 
 #### 4. assign function declaration to var.
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js1.PNG)
@@ -68,7 +75,8 @@ console.log( calc(2,3)); //"ReferenceError: calc is not defined
 ````
 
 #### 5. boolean type
-5.1. true and false
+5.1. true and false.
+
 5.2. Number as boolean
 - false internally represents **zero** value, And true internally represent **non-zero number**.
 ```
@@ -79,7 +87,7 @@ if(-1 == true){  console.log( 'true');}; //true
 if(100 == true){  console.log( 'true');} ;//true
 ```
 
-- Use number/true inter-changebelly
+- Use number/true inter-changebelly as CONDITION.
 ```
 if(true) {  console.log( 'true');} //true
 
@@ -105,10 +113,10 @@ else
 if(null)
   console.log( 'true');
 else
-  console.log( 'false');
+  console.log( 'false'); //output
 ```
 
-### 6. array
+#### 6. array
 1. iterate more:
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js2.PNG)
 
@@ -116,13 +124,77 @@ array is object type with length as builtin property.
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js3.PNG)
 
 
-### 7. Addition / subtraction
+#### 7. Addition / subtraction
 1. 
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js4.PNG)
 2. 
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js5.PNG)
 3. 
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js6.PNG)
+4. Add/sub with NULL - 0
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js7.PNG)
+5. Add/Sub with undefined - NaN
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js8.PNG)
+
+6. Sub string1/number with string2 - NaN/worked
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js9.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js11.PNG)
+
+7. Sub string1 with number - Js will convert string to number
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js10.PNG)
+
+#### 8. Multiple:
+1. 
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js12.PNG)
+
+2. withString
+```
+var a = "1.3" ;  
+var b = "abc";
+console.log(a * b ); //NaN
+
+var a = "1.3" ;  
+var b = "2.2";
+console.log(a * b ); //2.8600000000000003
+```
+
+3. with null
+```
+var a = "1.3" ;  
+var b = null; 
+console.log(a * b ); //0 a null is 0 value
+```
+
+4. with Infinity
+```
+var a = "1.3" ;  
+var b = Infinity; 
+console.log(a * b ); // Infinity
+```
+
+#### 9. JS rules (on comparision)
+Null/undefined cant be compared and alwys return false whenever being compared. But have one exception:
+`if (null == undefined) // true` - both have interanlly same value.
+
+***
+
+### Types / Scopes
+#### Tpye 
+1. Primitive
+2. Reference
+
+#### Scopes
+1. Local - within function. 
+2. Global - within window.
+
+- if `var` is not used then it will always global irrespective wherver variable is defined.
+- local variable overrides the global variable if having same name.
+
+
+
+
+
+
 
 
 
