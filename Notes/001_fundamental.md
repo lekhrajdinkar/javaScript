@@ -92,6 +92,11 @@ $(selector).show(speed,callback);
 - If the elements are faded out, fadeToggle() will fade them in.
 - If the elements are faded in, fadeToggle() will fade them out
 
+3.5. fadeTo
+> $(selector).fadeTo(speed,opacity,callback); 
+speed and  opacity - required.
+
+
 
 
 
