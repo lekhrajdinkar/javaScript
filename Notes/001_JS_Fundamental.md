@@ -54,7 +54,7 @@ and ES6 - Few browser does not support it and transcompile it to ES5 format brfo
 - its a error return by JS while mathematical error on number types. NaN is of `number` type. technically we can say its undefined number in JS world.
 
 #### 4. assign function declaration to var.
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES/assets/js.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js1.PNG)
 
 ```var a = function calc(var1, var2){
   return var1 + var2;
@@ -110,19 +110,19 @@ else
 
 ### 6. array
 1. iterate more:
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES/assets/js2.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js2.PNG)
 
 array is object type with length as builtin property.
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES/assets/js3.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js3.PNG)
 
 
 ### 7. Addition / subtraction
 1. 
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES/assets/js4.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js4.PNG)
 2. 
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES/assets/js5.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js5.PNG)
 3. 
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES/assets/js6.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js6.PNG)
 
 
 
