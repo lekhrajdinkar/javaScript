@@ -7,7 +7,7 @@
 > Events,
 > AJAX - Asysn call - dont refresh page and load data in background.
 
-`note`: Online JS environment tool for dev/test : [http://jsbin.com/](jsbin.com)
+`note`: Online JS environment tool for dev/test : [https://jsbin.com/](jsbin.com)
 
 ### features:
 
@@ -28,7 +28,9 @@ and ES6 - Few browser does not support it and transcompile it to ES5 format brfo
 ```
 6. 
 `<script> f1()</script>` - f1() will get execute.
-`<script scr=""> f1()</script>` - f1() will not
+`<script scr=""> f1()</script>` - f1() will not run.
+
+7. Hoisting. - var is declared before declaring it in code. All declaration will be pulled up automatically up.
 
 ### Types
 
@@ -190,9 +192,54 @@ Null/undefined cant be compared and alwys return false whenever being compared. 
 - if `var` is not used then it will always global irrespective wherver variable is defined.
 - local variable overrides the global variable if having same name.
 
+***
 
+### ARRAYS
+1. can be think as array of infinite lenght:
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array1.PNG)
 
+2.Iterate:
+2.1. for loop
+2.2. forEach:
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array2.PNG)
 
+3. Add
+3.1. at end - `push(element)`
+
+Add Undefined element - way1
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/array3.PNG)
+
+3.2. at start - `unShift(element)`
+
+4. Remove
+4.1. from end - `pop()`
+4.2. from start - `shift()`
+
+5. find
+5.1. `indexOf(element)` - returns for first elemet, returns -1 if not found.
+
+6. `splice(index, no of elements)` - modify original array
+```
+var a1 = [0,1,2,3,4,5]
+
+//take out 2, 3,4 in different array
+var a2 = a1.splice(2,3);
+
+console.log(a1); // [0, 1, 5]
+console.log(a2); // [2, 3, 4]
+```
+
+7. `slice(index-start, index-end)` - keep original array as it is.
+```
+var a1 = [0,1,2,3,4,5]
+
+//take out 2, 3 in different array
+var a2 = a1.slice(2,5);
+
+console.log(a1); //[0, 1, 2, 3, 4, 5]
+console.log(a2); //[2, 3, 4]
+```
+  
 
 
 
