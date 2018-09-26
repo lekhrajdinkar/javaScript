@@ -27,6 +27,8 @@ Few properties of it:
 - window.navigate()
 - window.alert("msg"), prompt("enter") and, window.confirm("sure ?") --> T/F
 
+note: use `JS modal` for creating popup windows.
+
 3. its global object. we dont need to window.open(), and can use open() directly.
 
 ***
