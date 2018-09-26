@@ -36,7 +36,7 @@ Few properties of it:
 3. url, host,etc. check on chrome.
 
 ### WINDOW object > Document Object
-#### Traverse document object:
+#### A. Traverse document object:
 1. document.url - can also be access from here instead of location.url.
 2. document.body
 3. document.body.children
@@ -66,13 +66,27 @@ document object itself very complex for large html page. eg html having long lis
 - document.body.firstElementChild.firstElementChild.nextElementSibling --> `<li> link2`
 - document.body.firstElementChild.firstElementChild.parentElement --> `<li> link1`
 
-#### Traverse document object effectively.
+#### B. Traverse document object effectively.
+These are more perfect sddelector to get right elemet.
 1. document.getElementByTagName('li') --> `array of all li`
 2. document.getElementByClassName('c1') --> `li link3`  
 3. document.getElementByName('')
 4. document.getElementById('')
 
+#### C. Traverse document using QuerySelector.
+- uses CSS selector format
 
+1. document.querySelector('h1') --> `first h1`
+2. document.querySelectorAll('h1') --> `list of all h1`
+3. .class1 --> element with class  class1, etc.
+4 check !   [CSS selector](https://www.w3schools.com/cssref/css_selectors.asp)
 
+#### D. Insert elemet in DOM
+1. `addChild`
+2. `insertBefore`
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/dom4.PNG)
 
+#### E. Removing elemet in DOM
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/dom5.PNG)
+a.remove() --> wll nor work in older bowser.
 
