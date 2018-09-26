@@ -25,6 +25,7 @@ Few properties of it:
 2. window method - eg
 - window.open("url")
 - window.navigate()
+- window.alert("msg"), prompt("enter") and, window.confirm("sure ?") --> T/F
 
 3. its global object. we dont need to window.open(), and can use open() directly.
 
@@ -88,5 +89,7 @@ These are more perfect sddelector to get right elemet.
 
 #### E. Removing elemet in DOM
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/dom5.PNG)
-a.remove() --> wll nor work in older bowser.
+- a.remove() --> will not work in older bowser.
+_ a.parentElemet.remove(a);
+- a.parentNode.remove(a);
 
