@@ -31,18 +31,48 @@ Few properties of it:
 ***
 
 ### WINDOW object > Location Object
-1. navigate
-2. replace
+1. navigate()
+2. replace()
+3. url, host,etc. check on chrome.
 
 ### WINDOW object > Document Object
+#### Traverse document object:
 1. document.url - can also be access from here instead of location.url.
 2. document.body
 3. document.body.children
 4. document.body.children[0].textContent
 5. document.body.children[0].style.backgrounColor.
 
-change document object and see the changes in broeser _with refresh page_. eg"
+change document object and see the changes in browser _without refresh page_. eg"
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/dom2.PNG)
+
+document object itself very complex for large html page. eg html having long list. There is another way to better traverse on DOM, will see later.
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/dom3.PNG)
+
+
+6. Traverse more
+```
+<body>
+    <ul>
+        <li> link1 </li>
+        <li> link2 </li>
+        <li class="c1"> link3 </li>
+    </ul>
+</body>
+```
+- document.body.firstChild  --> `<body>`
+- document.body.firstElementChild --> `<ul>`
+- document.body.firstElementChild.firstElementChild --> `<li> link1`
+- document.body.firstElementChild.firstElementChild.nextElementSibling --> `<li> link2`
+- document.body.firstElementChild.firstElementChild.parentElement --> `<li> link1`
+
+#### Traverse document object effectively.
+1. document.getElementByTagName('li') --> `array of all li`
+2. document.getElementByClassName('c1') --> `li link3`  
+3. document.getElementByName('')
+4. document.getElementById('')
+
+
 
 
 
