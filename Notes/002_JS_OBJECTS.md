@@ -6,9 +6,9 @@
 3. refer Class property inside function using `this`. else it wont work.
 4. Side note : Each Objeect we create by any mean will have a `prototype`. default prototype is `Object.prototype` which is root prototype of all objects.
 5. 
+***
 
-
-#### object basics
+> #### A. Object basics
 
 1. accessing its property 
 
@@ -38,6 +38,6 @@
 7. camparing objects using `==` it checks references.
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/obj7.PNG)
 
-#### PROTOTYPE
+> #### B. PROTOTYPE
 
 
