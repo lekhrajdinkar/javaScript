@@ -40,4 +40,14 @@
 
 > #### B. PROTOTYPE
 
+1. `Object.prototype` (itself a object) is parent prtotype. try to priny itlog(Object.prototype ) //undefined
+2. var1.anything() --> error; var1.toString() --> no error. how ?
+3. prototype can be think of as parent Object and can be used inside objects(created from prototype).
+4. Object.prototype is parent all object and all its method accessible to object derived from it.
+5. eg : to understand it more better:
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/obj9.PNG)
+6. Protyotype Chain:
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/proto1.PNG)
+
+
 
