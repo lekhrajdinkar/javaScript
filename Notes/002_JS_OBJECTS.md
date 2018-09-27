@@ -38,8 +38,11 @@
 7. camparing objects using `==` it checks references.
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/obj7.PNG)
 
+***
+
 > #### B. PROTOTYPE
 
+0. Blueprints from where we can create multiple object and benefits its `functions` and   `feilds`
 1. `Object.prototype` (itself a object) is parent prtotype. try to priny itlog(Object.prototype ) //undefined
 2. var1.anything() --> error; var1.toString() --> no error. how ?
 3. prototype can be think of as parent Object and can be used inside objects(created from prototype).
@@ -48,6 +51,24 @@
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/obj9.PNG)
 6. Protyotype Chain:
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/proto1.PNG)
+
+7. var chilhObj = Object.create(parentObj)
+
+8. Create multiple object from same blueprint
+```
+var chilhObj1 = Object.create(parentObj);
+var chilhObj2= Object.create(parentObj);
+```
+
+9. Get prototype:
+```
+var a = Object.create(x);
+Object.getPrototypeOf(a) //x
+```
+***
+
+> #### C. Constructor Functions
+
 
 
 
