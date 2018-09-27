@@ -68,6 +68,23 @@ Object.getPrototypeOf(a) //x
 ***
 
 > #### C. Constructor Functions
+1. Another way to create Object.
+2. eg:
+```
+function ABC(){ ... }
+var o1 = new ABC();
+
+//protype of  o1 will be ABC.protype.
+
+ABC.prototype.greet = function(){ log("hello");}
+
+o1.greet() // hello.
+var a =
+```
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/con1.PNG)
+
+3. constrtor function with argument.
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/con2.PNG)
 
 
 
