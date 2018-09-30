@@ -194,6 +194,9 @@ Null/undefined cant be compared and alwys return false whenever being compared. 
 - if `var` is not used then it will always global irrespective wherver variable is defined.
 - local variable overrides the global variable if having same name.
 
+***
+Callback function concept : https://www.youtube.com/watch?v=Nau-iEEgEoM
+
 
 
 
