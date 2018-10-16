@@ -84,14 +84,28 @@ These are more perfect sddelector to get right elemet.
 3. .class1 --> element with class  class1, etc.
 4 check !   [CSS selector](https://www.w3schools.com/cssref/css_selectors.asp)
 
-#### D. Insert elemet in DOM
+#### D. Insert element in DOM
 1. `addChild`
 2. `insertBefore`
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/dom4.PNG)
 
-#### E. Removing elemet in DOM
+#### E. Removing element in DOM
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/dom5.PNG)
 - a.remove() --> will not work in older bowser.
 _ a.parentElemet.remove(a);
 - a.parentNode.remove(a);
+
+#### E. modify element in DOM 
+- modify/add/remove attributes
+- modify/add/remove inline style
+- modify classes
+[how-to-make-changes-to-the-dom](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom)
+
+***
+
+Links:
+[introduction-to-the-dom](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom)
+
+
+
 
