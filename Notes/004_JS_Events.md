@@ -1,5 +1,7 @@
 ## Events
 
+[DigitalOcean tutorial](https://www.digitalocean.com/community/tutorials/understanding-events-in-javascript)
+
 ### Features:
 1. interact with user-action(btn click) and browser-action(on window load)using JS.
 2. eg:

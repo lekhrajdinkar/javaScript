@@ -95,11 +95,13 @@ These are more perfect sddelector to get right elemet.
 _ a.parentElemet.remove(a);
 - a.parentNode.remove(a);
 
-#### E. modify element in DOM 
+[more](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom)
+
+#### E. modify element attribute in DOM 
 - modify/add/remove attributes
 - modify/add/remove inline style
 - modify classes
-[how-to-make-changes-to-the-dom](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom)
+[more ](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom)
 
 ***
 
