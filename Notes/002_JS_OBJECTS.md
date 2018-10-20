@@ -89,6 +89,7 @@ var a =
 ***
 
 ### `this` keyword
+its little trick in JS, but we can handle it.
 
 1. **binding**
 ```
@@ -148,10 +149,10 @@ way2:
 - make it writable to update it.
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/04.JPG)
 
-- other properties which 3rd argument (object) accepts
-`value`, `writable`, 
+- other properties which 3rd argument (object) accepts other than
+`value`, `writable` :
 
-`get`: below below will be called whenever 'name' is accessed.
+- `get`: below below will be called whenever 'name' is accessed.
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/05.JPG)
 
 `set`: below below will be called whenever 'name' is accessed.
@@ -178,7 +179,7 @@ feild name:
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/09.JPG)
 
 feild values:
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/10.JPG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/10.JPG)
 
 
 
