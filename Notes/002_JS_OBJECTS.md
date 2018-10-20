@@ -86,6 +86,84 @@ var a =
 3. constrtor function with argument.
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/con2.PNG)
 
+***
+
+### `this` keyword
+
+1. **binding**
+```
+function f1(){ console.log(this)} 
+
+case1: invoke globally
+f1() // it will print window object. here this is bind with window object.
+
+case 2: invoke inside object
+var obj = { x : f1 ; }
+obj.x(); // it will print obj. here this is bind with obj.
+```
+Using `bind()` function we can bind any object with `this` of `function f1(){ console.log(this)}`.
+
+eg: 
+```
+var obj = { x : f1 ; }
+obj.x.bind(this); // here this is bind with obj again.
+
+note: parenthesis is omitted after x.
+
+var obj2 = { ... }
+obj.x.bind(obj2); // here this is bind with obj2 but wont we called.
+
+obj.x.bind(obj2)();//will be called here. Added parenthesis at end.
+```
+
+2. **passing arg while binding**
+```
+function f1(arg1,...){ console.log(arg1 + this)} 
+
+var obj = { x : f1 ; }
+obj.x.bind(this,"arg1", ...)(); // 2nd arg onwards.
+```
+
+3. **Call() method**
+- it binds and call.
+- no need to put addiotional parenthesis at end.
+
+4. **apply() method**
+- same as call but  it accepts argument in array.
+
+***
+
+### defineProperty
+`Object.defineProperty(...)` --> Add new property in object.
+
+way1:
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/01.JPG)
+
+way2:
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/02.JPG)
+- its complex, but it provides some more configuration.
+- 3rd argument is object --> {value: " " or f1(){}, writable: T/F, ...}
+- by default  value is readable.
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/03.JPG)
+- make it writable to update it.
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/04.JPG)
+
+- other properties which 3rd argument (object) accepts
+`value`, `writable`, 
+
+`get`: below below will be called whenever 'name' is accessed.
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/05.JPG)
+
+`set`: below below will be called whenever 'name' is accessed.
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/06.JPG)
+
+google other ...
+
+
+
+
+
+
 
 
 
