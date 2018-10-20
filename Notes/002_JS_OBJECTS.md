@@ -137,27 +137,49 @@ obj.x.bind(this,"arg1", ...)(); // 2nd arg onwards.
 `Object.defineProperty(...)` --> Add new property in object.
 
 way1:
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/01.JPG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/01.JPG)
 
 way2:
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/02.JPG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/02.JPG)
 - its complex, but it provides some more configuration.
 - 3rd argument is object --> {value: " " or f1(){}, writable: T/F, ...}
 - by default  value is readable.
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/03.JPG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/03.JPG)
 - make it writable to update it.
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/04.JPG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/04.JPG)
 
 - other properties which 3rd argument (object) accepts
 `value`, `writable`, 
 
 `get`: below below will be called whenever 'name' is accessed.
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/05.JPG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/05.JPG)
 
 `set`: below below will be called whenever 'name' is accessed.
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/06.JPG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/06.JPG)
 
 google other ...
+
+***
+
+### clear some property of object
+1. assign null
+2. `delete` :
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/07.JPG)
+
+***
+## check if property is present inside object
+
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/08.JPG)
+Note : Name - false, name - true
+
+***
+### Iterate through all feilds:
+feild name:
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img2/09.JPG)
+
+feild values:
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/img/10.JPG)
+
 
 
 
