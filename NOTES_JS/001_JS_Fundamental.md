@@ -1,3 +1,8 @@
+## JavaScript
+- 3 tech for web development - `css(style)` + `html(content)` + `JS (logic/programming` --> to add dynamic and interactive effect, DOM manipulation,etc)
+- lightweight(precompiled) scripting language for browser. it OOP language. it has classes, interface, inheritabnce, abstraction, etc.
+***
+
 ### Topic
 > Language constructs, 
 > Array / Object, 
@@ -9,7 +14,7 @@
 
 `note`: Online JS environment tool for dev/test : [https://jsbin.com/](jsbin.com)
 
-### features:
+### More features:
 
 1. Runs on browse, doesnot have server dependency, hence reactive and fast.
 2. JS > run on Server by Node.js, which also extends core  feature of JS and added more capabilty.
@@ -30,11 +35,13 @@ and ES6 - Few browser does not support it and transcompile it to ES5 format brfo
 `<script> f1()</script>` - f1() will get execute.
 `<script scr=""> f1()</script>` - f1() will not run.
 
-7. Hoisting. - var is used before declaring it in code. All declaration will be pulled up automatically up.
+7. Hoisting - JS declares the variable and method inside Excecution stack before excution.
+8. JS `framework` - AngularJS and angular
+9. JS `library` - lodash, reactJS, jquery, axios, etc.
 
 ***
 
-### Types
+### Data Types
 
 ```
 eg:
