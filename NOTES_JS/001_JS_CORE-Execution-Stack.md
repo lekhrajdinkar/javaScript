@@ -1,14 +1,13 @@
 ## How JS works behind the scene.
 
 ### A. Hoisting
-- jS loaded Exection stack
-- then declares the property and method 
-- then executes.
+- JS loades `Exection stack` for execution thread.
+- then declares the `property` and `method` 
+- then executes the code flow.
 - `note`: if var is used in code without declation then JS declares thar property in global `execution stack`.
 
-### B. Execution Stack
-1. default stack is `global` stack to execute the current JS code. it act as starting execution point.
-2. eg:
+### B. **Execution Stack**
+1. Understand it with for below prg:
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/02.jpg)
 ```
 global stack --> 
@@ -16,29 +15,38 @@ global stack -->
 - property declation : a
 
 
-first-function stack --> 
+first() method stack --> 
 - method declaration: second()
 - property declation : b
 ```
 
 - first() is called at line 59
-- New execution will be formed for first(), for its execution.
-- again declaration will happen, followed by eecution then.
-- `note 1` : property/method declared in parent stack will be avialble to child (and nested child). see nested flow eg:
+- New Execution stack will be formed for first(), for its execution, on top of global stack.
+- Again declaration will happen, followed by execution then.
+
+> `note 1` : property/method declared in parent stack will be avialble to child (and nested child). 
+See nested flow eg:
+
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/03.jpg)
-- `note 2` : method expertion wont be declared inside stack. eg:
+
+> `note 2` : `method-expression` wont be declared inside stack. eg: line 13 below.
+
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/06.jpg)
 
-3. Theory:
+****
+
+2. Theory to understand it:
+- default stack is `global` stack to execute the current JS code. it act as starting execution point.
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/04.jpg)
-> 3.1 VO 
+
+> ## 2.1 VO 
 
 - creation Phase: VO object holds 3 things --> `argument`, `funtion` and `property`
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/05.jpg)
 - Another simple eg:
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/07.jpg)
 
-> 3.2 Scope chain
+> ## 2.2 Scope chain
 
 - in JS, there are only 2 scope - global and local(each function)
 - lexical scoping chain --> if function defined inside anothor function, then it will be scope inside scope. 
@@ -51,7 +59,7 @@ first-function stack -->
 - note: difference between scope chain and execution stack:
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/09.jpg)
 
-> 3.3 this
+> ## 2.3 this
 
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/10.jpg)
 
@@ -59,4 +67,4 @@ first-function stack -->
 - this will be john object in below prg:
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/11.jpg)
 
-***
+******
