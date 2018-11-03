@@ -3,6 +3,10 @@
 - lightweight(precompiled) scripting language for browser. it OOP language. it has classes, interface, inheritabnce, abstraction, etc.
 
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/01.jpg)
+
+- JS engine:
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/12.jpg)
+
 ***
 
 ### Topic
@@ -41,6 +45,14 @@ and ES6 - Few browser does not support it and transcompile it to ES5 format brfo
 8. JS `framework` - AngularJS and angular
 9. JS `library` - lodash, reactJS, jquery, axios, etc.
 
+10. **First Class function** :
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/13.jpg)
+
+- simple eg: pass function as argument
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/13_1.jpg)
+
+- simple eg: return Function
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/13_2.jpg)
 ***
 
 ### Data Types
