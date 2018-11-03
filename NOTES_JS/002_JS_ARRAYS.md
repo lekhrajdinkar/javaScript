@@ -1,6 +1,16 @@
 ### ARRAYS
-#### 1. can be think as array of infinite lenght:
+#### Feature
+1. JS arrays can be think as array of infinite lenght:
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/array1.PNG)
+***
+
+### Fundamental operation
+
+#### 1. Create array
+```
+var arr = [`abc`, 'xyz']
+var arr = [`abc`, 'xyz',1,2, true, false, {name:'lekh'}]
+```
 
 #### 2.Iterate:
 - 2.1. for loop
@@ -20,7 +30,7 @@ Add Undefined element - way1
 - 4.2. from start - `shift()`
 
 #### 5. find index of element
-5.1. `indexOf(element)` - returns for first element, returns -1 if not found.
+- 5.1. `indexOf(element)` - returns for first element, returns -1 if not found.
 
 #### 6. Modify array by removing sub-array.
 -  6.1. `splice(index, no of elements)` - modify original array
