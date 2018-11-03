@@ -1,6 +1,8 @@
 ## JavaScript
 - 3 tech for web development - `css(style)` + `html(content)` + `JS (logic/programming` --> to add dynamic and interactive effect, DOM manipulation,etc)
 - lightweight(precompiled) scripting language for browser. it OOP language. it has classes, interface, inheritabnce, abstraction, etc.
+
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/basic/01.jpg)
 ***
 
 ### Topic
