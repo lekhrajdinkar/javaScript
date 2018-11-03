@@ -72,7 +72,7 @@ if(1 === '1') - false
 - `if (NaN == NaN) // false` 
 
 #### 4. assign function declaration to var.
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js1.PNG)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js1.PNG)
 
 ```var a = function calc(var1, var2){
   return var1 + var2;
@@ -129,34 +129,34 @@ else
 
 #### 6. array
 1. iterate more:
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js2.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js2.PNG)
 
 array is object type with length as builtin property.
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js3.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js3.PNG)
 
 
 #### 7. Addition / subtraction
 1. 
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js4.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js4.PNG)
 2. 
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js5.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js5.PNG)
 3. 
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js6.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js6.PNG)
 4. Add/sub with NULL - 0
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js7.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js7.PNG)
 5. Add/Sub with undefined - NaN
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js8.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js8.PNG)
 
 6. Sub string1/number with string2 - NaN/worked
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js9.PNG)
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js11.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js9.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js11.PNG)
 
 7. Sub string1 with number - Js will convert string to number
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js10.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js10.PNG)
 
 #### 8. Multiple:
 1. 
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/Notes/asset/js12.PNG)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/js12.PNG)
 
 2. withString
 ```
