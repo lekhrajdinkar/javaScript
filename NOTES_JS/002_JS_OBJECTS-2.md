@@ -28,7 +28,7 @@
 ***
 
 3. Third way: from `prototype` 
-- All js object has one property called _prototype_ . anything will be inherit down which is reference by this property.
+- All js object has one property called _prototype_ . anything will be inherit down which is referenced by this property.
 - eg: add new function in prototype and access it.
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/object/09.jpg)
 
@@ -55,7 +55,7 @@
 4. fourth way: custom Contructor function
 
 - just like noramla function and used with `new` operator.
-![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/object/08.jpg)
+![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/object/10.jpg)
 
 ***
 
