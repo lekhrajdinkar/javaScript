@@ -2,6 +2,13 @@
 
 > TOPICS : execution stack, event roll, message stack,etc
 
+## Async vs Sync code
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/14.jpg)
+![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/15.jpg)
+
+***
+
+### Steps: 
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/01.jpg)
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/02.jpg)
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/03.jpg)
@@ -15,6 +22,5 @@
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/11.jpg)
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/12.jpg)
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/13.jpg)
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/14.jpg)
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/15.jpg)
-![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/16.jpg)
+
+***
