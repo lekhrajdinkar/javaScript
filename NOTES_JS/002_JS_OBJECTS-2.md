@@ -27,12 +27,12 @@
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/object/18.jpg)
 ***
 
-3. 3rd way: from prototype 
-- All js object has one property called prototype. anything will be inherit down which is reference by this property.
+3. Third way: from `prototype` 
+- All js object has one property called _prototype_ . anything will be inherit down which is reference by this property.
 - eg: add new function in prototype and access it.
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/object/09.jpg)
 
-- Prototype are JS way of inhertance, inherit property and method from parent object.
+- `Prototype` are JS way of inhertance, inherit property and method from parent object.
 - `Object.create( prototype1 : Object)`
 - eg1: object.create(null);
 ![](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/object/06.jpg)
