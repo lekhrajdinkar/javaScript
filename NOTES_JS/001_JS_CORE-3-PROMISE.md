@@ -2,7 +2,7 @@
 
 ### A. feature:
 1. Object that keeps track that whether a certain `event` has completed or not.
-> event means - DOM event, async call made to server to load data
+> event means - DOM event, async call made to server to load data, etc
 
 2. Once event is complete (eg: asyn call complete to fetch data from backend), it determines what to do after event complete.
 3. it implements the concept of `future state`, to store the returned data.
@@ -108,6 +108,7 @@ async function f1(){
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/promise/06_1.jpg)
 
 - subscribe to asyn function to get result asynchronously.
+
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/promise/06_2.jpg)
 
 ***
