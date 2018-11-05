@@ -88,8 +88,11 @@ promise1
 4. chain then (fetch promise3 data)
 
 - prg img1 - p1 and p2
+
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/promise/05.jpg)
+
 - prg img2 - p3
+
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/promise/05_2.jpg)
 
 ### problem
