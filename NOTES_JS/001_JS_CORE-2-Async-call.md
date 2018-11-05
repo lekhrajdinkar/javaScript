@@ -1,6 +1,8 @@
 ## How JS handle ASYNC call behind the scene
 
-> TOPICS : execution stack, event roll, message stack,etc
+> TOPICS : execution stack, event loop, message stack,etc
+
+> callback function will run async and will not stop current excution flow.
 
 ## Async vs Sync code
 ![img](https://github.com/lekhrajdinkar/javaScript/blob/master/NOTES_JS/asset/jonas/async/14.jpg)
