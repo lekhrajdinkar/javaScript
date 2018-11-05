@@ -31,7 +31,13 @@ const promise1 = new Promise(
 2. consume: 
 ```
 promise1
-.then(data1 => {})
+.then(data1 => {}).then
+.catch(error1 => {});
+```
+- CAll promise chain
+```
+promise1
+.then(data-p1 => { return promise2}).then(data-p2 => { return promise 3}).then( ... so on)
 .catch(error1 => {});
 ```
 - data1 and error1 
